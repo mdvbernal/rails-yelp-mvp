@@ -1,0 +1,57 @@
+// Place all the styles related to the restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  width: 900px;
+}
+
+.button-white {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.button-white-fixed-right {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.button-white:hover, .button-white-fixed-right:hover {
+  opacity: 0.4;
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  padding: 25px;
+}
+
+li {
+  padding: 10px;
+}
+
+th:last-child {
+ width: 200px;
+}
+
+td {
+  padding: 30px;
+  text-align: left;
+}
+
+table {
+  margin: 60px;
+}
+
+form {
+  padding: 100px;
+}
